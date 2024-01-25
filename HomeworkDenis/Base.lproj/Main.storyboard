@@ -17,11 +17,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AfR-gc-SD5">
-                                <rect key="frame" x="16" y="453" width="361" height="365"/>
+                                <rect key="frame" x="16" y="448.66666666666674" width="361" height="349.33333333333326"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FoV-m6-pES">
-                                <rect key="frame" x="16" y="68" width="361" height="365"/>
+                                <rect key="frame" x="16" y="79" width="361" height="349.66666666666669"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                             </view>
                         </subviews>
@@ -32,8 +32,8 @@
                             <constraint firstItem="AfR-gc-SD5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="DvP-IZ-iNP"/>
                             <constraint firstItem="AfR-gc-SD5" firstAttribute="firstBaseline" secondItem="FoV-m6-pES" secondAttribute="baseline" constant="20" id="Enr-QU-fDF"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FoV-m6-pES" secondAttribute="trailing" constant="16" id="FFb-Tc-ZoG"/>
-                            <constraint firstItem="FoV-m6-pES" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="9" id="Gan-hm-pyV"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="AfR-gc-SD5" secondAttribute="bottom" id="Y3c-Ec-zG7"/>
+                            <constraint firstItem="FoV-m6-pES" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Gan-hm-pyV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="AfR-gc-SD5" secondAttribute="bottom" constant="20" id="Y3c-Ec-zG7"/>
                             <constraint firstItem="FoV-m6-pES" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="YOD-t8-oGn"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AfR-gc-SD5" secondAttribute="trailing" constant="16" id="vZg-qH-a9K"/>
                         </constraints>
@@ -49,7 +49,7 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

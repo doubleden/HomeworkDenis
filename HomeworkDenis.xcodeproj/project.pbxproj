@@ -13,9 +13,6 @@
 		057E6C352B61978C008942FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 057E6C332B61978C008942FF /* Main.storyboard */; };
 		057E6C372B61978C008942FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 057E6C362B61978C008942FF /* Assets.xcassets */; };
 		057E6C3A2B61978C008942FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 057E6C382B61978C008942FF /* LaunchScreen.storyboard */; };
-		057E6C452B61978D008942FF /* HomeworkDenisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057E6C442B61978D008942FF /* HomeworkDenisTests.swift */; };
-		057E6C4F2B61978D008942FF /* HomeworkDenisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057E6C4E2B61978D008942FF /* HomeworkDenisUITests.swift */; };
-		057E6C512B61978D008942FF /* HomeworkDenisUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057E6C502B61978D008942FF /* HomeworkDenisUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +42,7 @@
 		057E6C392B61978C008942FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		057E6C3B2B61978C008942FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		057E6C402B61978D008942FF /* HomeworkDenisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeworkDenisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		057E6C442B61978D008942FF /* HomeworkDenisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkDenisTests.swift; sourceTree = "<group>"; };
 		057E6C4A2B61978D008942FF /* HomeworkDenisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeworkDenisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		057E6C4E2B61978D008942FF /* HomeworkDenisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkDenisUITests.swift; sourceTree = "<group>"; };
-		057E6C502B61978D008942FF /* HomeworkDenisUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkDenisUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				057E6C2C2B61978C008942FF /* HomeworkDenis */,
-				057E6C432B61978D008942FF /* HomeworkDenisTests */,
-				057E6C4D2B61978D008942FF /* HomeworkDenisUITests */,
 				057E6C2B2B61978C008942FF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,23 +100,6 @@
 				057E6C3B2B61978C008942FF /* Info.plist */,
 			);
 			path = HomeworkDenis;
-			sourceTree = "<group>";
-		};
-		057E6C432B61978D008942FF /* HomeworkDenisTests */ = {
-			isa = PBXGroup;
-			children = (
-				057E6C442B61978D008942FF /* HomeworkDenisTests.swift */,
-			);
-			path = HomeworkDenisTests;
-			sourceTree = "<group>";
-		};
-		057E6C4D2B61978D008942FF /* HomeworkDenisUITests */ = {
-			isa = PBXGroup;
-			children = (
-				057E6C4E2B61978D008942FF /* HomeworkDenisUITests.swift */,
-				057E6C502B61978D008942FF /* HomeworkDenisUITestsLaunchTests.swift */,
-			);
-			path = HomeworkDenisUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				057E6C452B61978D008942FF /* HomeworkDenisTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				057E6C512B61978D008942FF /* HomeworkDenisUITestsLaunchTests.swift in Sources */,
-				057E6C4F2B61978D008942FF /* HomeworkDenisUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
